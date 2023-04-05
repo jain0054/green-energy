@@ -48,20 +48,21 @@ const services = {
   
   // Responsive design
   const mediaQuery = window.matchMedia('(min-width: 30rem)');
-  const container = document.querySelector('.container');
-  const masthead = document.querySelector('.masthead');
+  const wrapper = document.querySelector('.wrapper');
+  const landing = document.querySelector('.landing');
   
   function handleMediaQuery(mediaQuery) {
   if (mediaQuery.matches) {
-    container.style.fontSize = '1.2rem';
-    masthead.style.height = '50vh';
+    wrapper.style.fontSize = '1.2rem';
+    landing.style.height = '50vh';
   } else {
-    container.style.fontSize = '1rem';
-    masthead.style.height = '30rem';
+    wrapper.style.fontSize = '1rem';
+    landing.style.height = '30rem';
   }
   }
   
   handleMediaQuery(mediaQuery);
   mediaQuery.addListener(handleMediaQuery);
+  
   
   
