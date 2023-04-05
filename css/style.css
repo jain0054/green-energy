@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Noto+Serif&display=swap');
+/* font-family: 'Mukta', sans-serif; */
+/* font-family: 'Noto Serif', serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#f2e5d5 ;
+    line-height: 1.5;
+    padding: 2rem;
+    margin:2rem;
+}
+
+header{
+    font-family: 'Noto Serif', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 2rem;
+}
+h1{
+    text-align: center;
+}
+/* p{
+    text-align: center;
+} */
+
+img{
+    width:100%;
+    
+}
+/* nav */
+nav {
+    
+    background-color: #013f3c;
+    padding: 0.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  nav li {
+    margin: 1rem;
+  }
+  
+  nav ul li a {
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.5rem;
+    color:#f2e5d5;;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+
+  /* buttons */
+  .manipulation{
+    background-color: #013f3c;
+    /* color: #f2e5d5; */
+    padding: 0.5rem;
+    display: flex;
+    justify-content:space-around;
+  }
+button{
+    width:6rem;
+    background-color: #013f3c;
+
+}
+
+    
+footer{
+    padding:2rem;
+    margin:5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: #013f3c;
+    color: #f2e5d5;
+}
+#socials a{
+    text-decoration: none;
+    color: #f2e5d5;
+}
+
+
+
