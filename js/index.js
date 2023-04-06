@@ -46,23 +46,6 @@ const services = {
   // Set the first button to active by default
   btn[0].classList.add("active-button");
   
-  // Responsive design
-  const mediaQuery = window.matchMedia('(min-width: 30rem)');
-  const wrapper = document.querySelector('.wrapper');
-  const landing = document.querySelector('.landing');
-  
-  function handleMediaQuery(mediaQuery) {
-  if (mediaQuery.matches) {
-    wrapper.style.fontSize = '1.2rem';
-    landing.style.height = '50vh';
-  } else {
-    wrapper.style.fontSize = '1rem';
-    landing.style.height = '30rem';
-  }
-  }
-  
-  handleMediaQuery(mediaQuery);
-  mediaQuery.addListener(handleMediaQuery);
-  
+
   
   
